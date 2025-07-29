@@ -17,6 +17,7 @@ return res.status(400).json({message:"user not found"})
     }
 }
 
+
 export const updateAssistant=async (req,res)=>{
    try {
       const {assistantName,imageUrl}=req.body
